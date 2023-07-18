@@ -7,7 +7,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 public class Query {
-    private static final String API_URL = "https://api.monobank.ua/bank/currency";
+    private static final String API_URL = "https://api.monobank.ua/bank/currency1";
 
     public void fetchResults() {
         try {
