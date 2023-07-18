@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<cities>
+    <city size="big">
+        <name>Kiev</name>
+        <streets>
+            <street>
+                <name>Vasylkivska Street</name>
+                <buildings>
+                    <building>Home "Bloom"</building>
+                    <building>Swimmingpool #9</building>
+                    <building>School #98</building>
+                </buildings>
+            </street>
+        </streets>
+    </city>
+    <city size="medium">
+        <name>Odessa</name>
+        <streets>
+            <street>
+                <name>Derybasivska Street</name>
+                <buildings>
+                    <building>Opera Theater</building>
+                    <building>City Hall</building>
+                    <building>Sea Port</building>
+                </buildings>
+            </street>
+        </streets>
+    </city>
+    <city size="small">
+        <name>Chernivtsi</name>
+        <streets>
+            <street>
+                <name>University Street</name>
+                <buildings>
+                    <building>University</building>
+                    <building>City Park</building>
+                    <building>Historical Museum</building>
+                </buildings>
+            </street>
+        </streets>
+    </city>
+</cities>
