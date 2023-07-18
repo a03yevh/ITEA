@@ -29,9 +29,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cfcbc27-8d06-4c3b-9864-014ea0158f7e" name="Changes" comment="Added.">
-      <change beforePath="$PROJECT_DIR$/src/Homeworks/HW_Lesson12_sp/HW4/Query.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homeworks/HW_Lesson12_sp/HW4/Query.java" afterDir="false" />
-    </list>
+    <list default="true" id="6cfcbc27-8d06-4c3b-9864-014ea0158f7e" name="Changes" comment="Changed." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,6 +63,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -264,7 +263,35 @@
       <option name="project" value="LOCAL" />
       <updated>1689708231945</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Changed.">
+      <created>1689710822549</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1689710822549</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Changed.">
+      <created>1689710836046</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1689710836046</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Changed.">
+      <created>1689710915687</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1689710915687</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Changed.">
+      <created>1689710996372</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1689710996372</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -295,7 +322,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="HW (Lesson1) done." />
     <MESSAGE value="HW5 update" />
     <MESSAGE value="HW6 update" />
     <MESSAGE value="HW7 update" />
@@ -320,7 +346,8 @@
     <MESSAGE value="Updated Main." />
     <MESSAGE value="Updated." />
     <MESSAGE value="Added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added." />
+    <MESSAGE value="Changed." />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed." />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="90" key="#Project_Structure" timestamp="1689709832985">
@@ -331,5 +358,13 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="740" y="257" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1689710402952" />
+    <state x="461" y="161" key="SettingsEditor" timestamp="1689711103074">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="461" y="161" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1689711103074" />
+    <state x="552" y="236" key="Vcs.Push.Dialog.v2" timestamp="1689710997975">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="552" y="236" key="Vcs.Push.Dialog.v2/0.0.1920.1032@0.0.1920.1032" timestamp="1689710997975" />
   </component>
 </project>
