@@ -13,14 +13,14 @@ public class JAXBParser {
             Marshaller marshaller = jaxbContext.createMarshaller();
             marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
 
-            File inputFile = new File("E:\\Java [Itea]\\ITEA\\src\\Homeworks\\HW_Lesson12_sp\\HW2\\input.xml");
+            File inputFile = new File("E:\\Java [Itea]\\ITEA\\src\\Homeworks\\HW_Lesson12_sp\\HW2\\input1.xml");
             Unmarshaller unmarshaller = jaxbContext.createUnmarshaller();
             Cities cities = (Cities) unmarshaller.unmarshal(inputFile);
 
             Cities newCities = new Cities();
             newCities.setCities(cities.getCities());
 
-            File outputFile = new File("E:\\Java [Itea]\\ITEA\\src\\Homeworks\\HW_Lesson12_sp\\HW2\\output.xml");
+            File outputFile = new File("E:\\Java [Itea]\\ITEA\\src\\Homeworks\\HW_Lesson12_sp\\HW2\\output1.xml");
             marshaller.marshal(newCities, outputFile);
 
             System.out.println("XML file successfully created.");

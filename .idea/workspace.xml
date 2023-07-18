@@ -30,12 +30,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6cfcbc27-8d06-4c3b-9864-014ea0158f7e" name="Changes" comment="Changed.">
-      <change afterPath="$PROJECT_DIR$/src/Homeworks/HW_Lesson12_sp/HW2/input.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homeworks/HW_Lesson12_sp/HW0/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homeworks/HW_Lesson12_sp/HW0/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homeworks/HW_Lesson12_sp/HW1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homeworks/HW_Lesson12_sp/HW1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homeworks/HW_Lesson12_sp/HW2/JAXBParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homeworks/HW_Lesson12_sp/HW2/JAXBParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/HW_Lesson12_sp/HW2/input1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homeworks/HW_Lesson12_sp/HW2/input.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homeworks/HW_Lesson12_sp/HW2/output.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +70,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.JAXBParser">
     <configuration name="JAXBParser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Homeworks.HW_Lesson12_sp.HW2.JAXBParser" />
       <module name="ITEA-lessons" />
@@ -128,10 +125,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JAXBParser" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.JAXBParser" />
       </list>
     </recent_temporary>
   </component>
@@ -368,7 +365,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689711109547</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Changed.">
+      <created>1689711736037</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1689711736037</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -436,22 +440,22 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="740" y="257" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1689710402952" />
-    <state width="1877" height="279" key="GridCell.Tab.0.bottom" timestamp="1689711498369">
+    <state width="1877" height="279" key="GridCell.Tab.0.bottom" timestamp="1689711791069">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1689711498369" />
-    <state width="1877" height="279" key="GridCell.Tab.0.center" timestamp="1689711498368">
+    <state width="1877" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1689711791069" />
+    <state width="1877" height="279" key="GridCell.Tab.0.center" timestamp="1689711791069">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="279" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1689711498368" />
-    <state width="1877" height="279" key="GridCell.Tab.0.left" timestamp="1689711498368">
+    <state width="1877" height="279" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1689711791069" />
+    <state width="1877" height="279" key="GridCell.Tab.0.left" timestamp="1689711791069">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="279" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1689711498368" />
-    <state width="1877" height="279" key="GridCell.Tab.0.right" timestamp="1689711498369">
+    <state width="1877" height="279" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1689711791069" />
+    <state width="1877" height="279" key="GridCell.Tab.0.right" timestamp="1689711791069">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="279" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1689711498369" />
+    <state width="1877" height="279" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1689711791069" />
     <state x="461" y="161" key="SettingsEditor" timestamp="1689711208624">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
