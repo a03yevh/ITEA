@@ -11,9 +11,9 @@ public class Main {
             SAXParserFactory factory = SAXParserFactory.newInstance();
             SAXParser saxParser = factory.newSAXParser();
             XMLHandler handler = new XMLHandler();
-            saxParser.parse(new File("E:\\Java [Itea]\\ITEA-lessons\\src\\Homeworks\\HW_Lesson12_sp\\HW1\\input.xml"), handler);
+            saxParser.parse(new File("E:\\Java [Itea]\\ITEA\\src\\Homeworks\\HW_Lesson12_sp\\HW1\\input.xml"), handler);
 
-            FileWriter writer = new FileWriter("E:\\Java [Itea]\\ITEA-lessons\\src\\Homeworks\\HW_Lesson12_sp\\HW1\\output.xml");
+            FileWriter writer = new FileWriter("E:\\Java [Itea]\\ITEA\\src\\Homeworks\\HW_Lesson12_sp\\HW1\\output.xml");
             writer.write(handler.getFileContent());
             writer.close();
 
