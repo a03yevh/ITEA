@@ -1,0 +1,8 @@
+package Homeworks.HW_Lesson12_sp.HW4;
+
+public class Main {
+    public static void main(String[] args) {
+        Query query = new Query();
+        query.fetchResults();
+    }
+}

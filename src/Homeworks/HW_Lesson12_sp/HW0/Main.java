@@ -1,0 +1,14 @@
+package Homeworks.HW_Lesson12_sp.HW0;
+
+public class Main {
+    public static void main(String[] args) {
+        Person person = new Person("Jack Av", 20);
+        String filename = "E:\\Java [Itea]\\ITEA-lessons\\src\\Homeworks\\HW_Lesson12_sp\\HW0\\person.ser";
+
+        Serializer.serializeToFile(person, filename);
+
+        Person deserializedPerson = Deserializer.deserializeFromFile(filename);
+
+        System.out.println(deserializedPerson);
+    }
+}
