@@ -1,56 +1,84 @@
 package Homeworks.HW_Lesson12_sp.HW4;
 
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.util.*;
 
 public class Main {
+    public static void main(String[] args) throws IOException {
+        String apiEndpoint = "https://api.monobank.ua/bank/currency";
+        String json = getJsonFromApi(apiEndpoint);
 
-    public static void main(String[] args) throws Exception {
-        String request = "https://api.monobank.ua/bank/currency";
-
-        String result = performRequest(request);
-
-        Gson gson = new GsonBuilder().create();
-        CurrencyRate[] rates = gson.fromJson(result, CurrencyRate[].class);
-
-        for (CurrencyRate rate : rates) {
-            System.out.println("currencyCodeA: " + rate.getCurrencyCodeA() +
-                    ", currencyCodeB: " + rate.getCurrencyCodeB() +
-                    ", rateBuy: " + rate.getRateBuy() +
-                    ", rateCross: " + rate.getRateCross() +
-                    ", rateSell: " + rate.getRateSell());
+        List<Map<String, Object>> result = parseJsonArray(json);
+        for (Map<String, Object> map : result) {
+            System.out.println(map);
         }
-
-        System.out.println("JSON: \n\t" + gson.toJson(rates));
     }
 
-    private static String performRequest(String urlStr) throws IOException {
-        URL url = new URL(urlStr);
-        StringBuilder sb = new StringBuilder();
+    public static String getJsonFromApi(String apiEndpoint) throws IOException {
+        URL url = new URL(apiEndpoint);
+        HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 
-        HttpURLConnection http = (HttpURLConnection) url.openConnection();
-        try {
-            int responseCode = http.getResponseCode();
-            if (responseCode != HttpURLConnection.HTTP_OK) {
-                throw new IOException("HTTP-response code: " + responseCode);
-            }
+        conn.setRequestMethod("GET");
 
-            BufferedReader br = new BufferedReader(new InputStreamReader(http.getInputStream()));
-            char[] buf = new char[1000000];
-
-            int r = 0;
-            do {
-                if ((r = br.read(buf)) > 0)
-                    sb.append(new String(buf, 0, r));
-            } while (r > 0);
-        } finally {
-            http.disconnect();
+        int responseCode = conn.getResponseCode();
+        if (responseCode < 200 || responseCode > 299) {
+            throw new IOException("Request failed. HTTP Error Code: " + responseCode);
         }
-        return sb.toString();
+
+        BufferedReader in = new BufferedReader(new InputStreamReader(conn.getInputStream()));
+        String inputLine;
+        StringBuilder content = new StringBuilder();
+        while ((inputLine = in.readLine()) != null) {
+            content.append(inputLine);
+        }
+
+        in.close();
+        conn.disconnect();
+
+        return content.toString();
+    }
+
+    public static List<Map<String, Object>> parseJsonArray(String jsonArray) {
+        List<Map<String, Object>> result = new ArrayList<>();
+
+        String[] jsonObjects = jsonArray.substring(1, jsonArray.length() - 1).split("\\},\\{");
+        for (String jsonObject : jsonObjects) {
+            if (!jsonObject.startsWith("{")) {
+                jsonObject = "{" + jsonObject;
+            }
+            if (!jsonObject.endsWith("}")) {
+                jsonObject = jsonObject + "}";
+            }
+            result.add(parseJsonObject(jsonObject));
+        }
+
+        return result;
+    }
+
+    public static Map<String, Object> parseJsonObject(String jsonObject) {
+        Map<String, Object> result = new HashMap<>();
+
+        String[] keyValuePairs = jsonObject.substring(1, jsonObject.length() - 1).split(",");
+        for (String keyValuePair : keyValuePairs) {
+            String[] keyValue = keyValuePair.split(":");
+            String key = keyValue[0].substring(1, keyValue[0].length() - 1);
+            Object value;
+            if (keyValue[1].startsWith("\"")) {
+                value = keyValue[1].substring(1, keyValue[1].length() - 1);
+            } else if (keyValue[1].equals("true")) {
+                value = true;
+            } else if (keyValue[1].equals("false")) {
+                value = false;
+            } else if (keyValue[1].equals("null")) {
+                value = null;
+            } else {
+                value = Double.parseDouble(keyValue[1]);
+            }
+            result.put(key, value);
+        }
+
+        return result;
     }
 }
