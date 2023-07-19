@@ -1,4 +1,4 @@
-package Homeworks.HW_Lesson12_sp.HW4;
+package Homeworks.HW_Lesson12_sp.HW4_new;
 
 import java.io.*;
 import java.net.HttpURLConnection;
