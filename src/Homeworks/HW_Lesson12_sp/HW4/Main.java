@@ -37,7 +37,7 @@ public class Main {
         try {
             int responseCode = http.getResponseCode();
             if (responseCode != HttpURLConnection.HTTP_OK) {
-                throw new IOException("HTTP response code: " + responseCode);
+                throw new IOException("HTTP-response code: " + responseCode);
             }
 
             BufferedReader br = new BufferedReader(new InputStreamReader(http.getInputStream()));

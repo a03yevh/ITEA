@@ -29,13 +29,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cfcbc27-8d06-4c3b-9864-014ea0158f7e" name="Changes" comment="Changed.">
-      <change afterPath="$PROJECT_DIR$/src/Homeworks/HW_Lesson12_sp/HW4/CurrencyRate.java" afterDir="false" />
+    <list default="true" id="6cfcbc27-8d06-4c3b-9864-014ea0158f7e" name="Changes" comment="Updated.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homeworks/HW_Lesson12_sp/HW4/JSON.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homeworks/HW_Lesson12_sp/HW4/CurrencyRate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homeworks/HW_Lesson12_sp/HW4/CurrencyRate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Homeworks/HW_Lesson12_sp/HW4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homeworks/HW_Lesson12_sp/HW4/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homeworks/HW_Lesson12_sp/HW4/Query.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homeworks/HW_Lesson12_sp/HW4/Results.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +70,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
-  <component name="RunManager" selected="Application.Main (3)">
+  <component name="RunManager" selected="Application.JAXBParser">
     <configuration name="JAXBParser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Homeworks.HW_Lesson12_sp.HW2.JAXBParser" />
       <module name="ITEA-lessons" />
@@ -141,7 +138,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.JAXBParser" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
@@ -403,7 +399,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689711849310</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Updated.">
+      <created>1689763389487</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1689763389487</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -457,10 +460,10 @@
     <MESSAGE value="Updated HW_Leeson6." />
     <MESSAGE value="Updated HW_Lesson6." />
     <MESSAGE value="Updated Main." />
-    <MESSAGE value="Updated." />
     <MESSAGE value="Added." />
     <MESSAGE value="Changed." />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed." />
+    <MESSAGE value="Updated." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated." />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="90" key="#Project_Structure" timestamp="1689709832985">
@@ -479,29 +482,29 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="740" y="257" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1689762795070" />
-    <state width="1877" height="203" key="GridCell.Tab.0.bottom" timestamp="1689763329345">
+    <state width="1877" height="203" key="GridCell.Tab.0.bottom" timestamp="1689763403679">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="203" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1689763329345" />
-    <state width="1877" height="203" key="GridCell.Tab.0.center" timestamp="1689763329345">
+    <state width="1877" height="203" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1689763403679" />
+    <state width="1877" height="203" key="GridCell.Tab.0.center" timestamp="1689763403679">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="203" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1689763329345" />
-    <state width="1877" height="203" key="GridCell.Tab.0.left" timestamp="1689763329345">
+    <state width="1877" height="203" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1689763403679" />
+    <state width="1877" height="203" key="GridCell.Tab.0.left" timestamp="1689763403679">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="203" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1689763329345" />
-    <state width="1877" height="203" key="GridCell.Tab.0.right" timestamp="1689763329345">
+    <state width="1877" height="203" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1689763403679" />
+    <state width="1877" height="203" key="GridCell.Tab.0.right" timestamp="1689763403679">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="203" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1689763329345" />
+    <state width="1877" height="203" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1689763403679" />
     <state x="461" y="161" key="SettingsEditor" timestamp="1689711208624">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="461" y="161" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1689711208624" />
-    <state x="552" y="236" key="Vcs.Push.Dialog.v2" timestamp="1689711850347">
+    <state x="552" y="236" key="Vcs.Push.Dialog.v2" timestamp="1689763397915">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="552" y="236" key="Vcs.Push.Dialog.v2/0.0.1920.1032@0.0.1920.1032" timestamp="1689711850347" />
+    <state x="552" y="236" key="Vcs.Push.Dialog.v2/0.0.1920.1032@0.0.1920.1032" timestamp="1689763397915" />
   </component>
 </project>

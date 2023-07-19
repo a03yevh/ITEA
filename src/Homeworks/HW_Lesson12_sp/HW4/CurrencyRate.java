@@ -40,19 +40,19 @@ public class CurrencyRate {
         this.rateBuy = rateBuy;
     }
 
-    public double getRateCross() {
-        return rateCross;
-    }
-
-    public void setRateCross(double rateCross) {
-        this.rateCross = rateCross;
-    }
-
     public double getRateSell() {
         return rateSell;
     }
 
     public void setRateSell(double rateSell) {
         this.rateSell = rateSell;
+    }
+
+    public double getRateCross() {
+        return rateCross;
+    }
+
+    public void setRateCross(double rateCross) {
+        this.rateCross = rateCross;
     }
 }
