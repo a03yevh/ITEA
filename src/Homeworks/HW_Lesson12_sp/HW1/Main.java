@@ -5,6 +5,9 @@ import javax.xml.parsers.SAXParserFactory;
 import java.io.File;
 import java.io.FileWriter;
 
+// Завдання 2: Створіть клас, використовуючи SAXParser, де опишіть ієрархію XML файлу. Необхідно, щоб проект створював XML-файл і будував дерево (місто,
+// назва вулиці, будинок). У місті використовуйте аттрибут (наприклад, <city size=”big>Kiev</city>).
+
 public class Main {
     public static void main(String[] args) {
         try {

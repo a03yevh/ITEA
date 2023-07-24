@@ -6,6 +6,8 @@ import javax.xml.bind.Marshaller;
 import javax.xml.bind.Unmarshaller;
 import java.io.File;
 
+// Завдання 3: Використовуючи JAXB, виконати завдання №3.
+
 public class JAXBParser {
     public static void main(String[] args) {
         try {

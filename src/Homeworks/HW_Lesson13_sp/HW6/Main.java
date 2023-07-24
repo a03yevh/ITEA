@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
+/* Завдання 7: Створити список та заповнити рандомними числами 10 осередків, потрібно вивести суму квадратів усіх елементів списку.
+Ми використовуємо метод map() для зведення квадрат кожного елемента, а потім застосовуємо метод reduce() для обʼєднання всіх елементів в одне число.*/
+
 public class Main {
     public static void main(String[] args) {
         List<Integer> nums = new ArrayList<>();
@@ -18,6 +21,6 @@ public class Main {
                 .reduce(0, (a, b) -> a + b);
 
         System.out.println("Список чисел: " + nums);
-        System.out.println("Сума квадратів: " + totalSum);
+        System.out.println("Сума квадратів чисел: " + totalSum);
     }
 }

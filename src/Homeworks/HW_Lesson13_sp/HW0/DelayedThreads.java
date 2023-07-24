@@ -4,6 +4,13 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.concurrent.TimeUnit;
 
+/* Завдання 1: Затримка потоку.
+Необхідно створити три потоки, кожних із цих потоків запустити (наприклад: main, second, first),
+Вивести - поток 'NAME' стартував - 'DateTime'
+Коли поток закінчив роботу - поток 'NAME' фінішував - 'DateTime'
+Коли всі ці потоки успішно відпрацюють – вивести на екран повідомлення
+Всі потоки завершили роботу*/
+
 public class DelayedThreads {
     private static final DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
 

@@ -5,6 +5,8 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.*;
 
+// Завдання 5: взяти будь яку api будь якого банку та розпарсити за допомогою json.
+
 public class Main {
     public static void main(String[] args) throws IOException {
         String apiEndpoint = "https://api.monobank.ua/bank/currency";

@@ -1,5 +1,7 @@
 package Homeworks.HW_Lesson13_sp.HW5;
 
+/* Завдання 6: Створіть Daemon-потік і виведіть про нього якнайбільше інформації.*/
+
 public class DaemonThread {
     public static void main(String[] args) {
         Thread daemonThread = new Thread(() -> {

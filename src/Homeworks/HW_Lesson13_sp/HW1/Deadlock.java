@@ -2,6 +2,8 @@ package Homeworks.HW_Lesson13_sp.HW1;
 
 import java.util.concurrent.TimeUnit;
 
+/* Завдання 2: Створити 2 класи. Реалізувати взаємне блокування цих класів*/
+
 public class Deadlock {
     public static void main(String[] args) {
         ResourceA resourceA = new ResourceA();
@@ -27,7 +29,7 @@ public class Deadlock {
         if (threadA.getState() == Thread.State.BLOCKED || threadB.getState() == Thread.State.BLOCKED) {
             System.out.println("Взаємне блокування відбулось!");
         } else {
-            System.out.println("Взаємного блокування не відбулось!");
+            System.out.println("Взаємне блокування не відбулось!");
         }
 
         System.exit(0);

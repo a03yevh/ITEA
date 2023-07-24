@@ -2,6 +2,8 @@ package Homeworks.HW_Lesson13_sp.HW2;
 
 import java.util.concurrent.TimeUnit;
 
+/* Завдання 3: Змінити завдання №2 Усі можливі способи (які Ви знаєте) вирішити проблему взаємного блокування.*/
+
 public class Deadlock {
     public static void main(String[] args) {
         ResourceA ResourceA = new ResourceA();
@@ -27,7 +29,7 @@ public class Deadlock {
         if (threadA.getState() == Thread.State.BLOCKED || threadB.getState() == Thread.State.BLOCKED) {
             System.out.println("Взаємне блокування відбулось!");
         } else {
-            System.out.println("Взаємного блокування не відбулось!");
+            System.out.println("Взаємне блокування не відбулось!");
         }
 
         System.exit(0);
