@@ -1,4 +1,4 @@
-package Homeworks.HW_Lesson13_sp.HW3;
+package Homeworks.HW_Lesson13_sp.HW3_upd;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -43,7 +43,7 @@ public class MultiThreadedApp {
         @Override
         public void run() {
             try {
-                FileWriter writer = new FileWriter("E:\\Java [Itea]\\ITEA\\src\\Homeworks\\HW_Lesson13_sp\\HW3\\result.txt", true);
+                FileWriter writer = new FileWriter("E:\\Java [Itea]\\ITEA\\src\\Homeworks\\HW_Lesson13_sp\\HW3_upd\\result.txt", true);
                 while (true) {
                     synchronized (lock) {
                         while (idCollection.isEmpty()) {
