@@ -28,7 +28,7 @@ public class DaemonThread {
         daemonThread.start();
 
         try {
-            TimeUnit.SECONDS.sleep(10);
+            TimeUnit.SECONDS.sleep(40);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -40,7 +40,7 @@ public class DaemonThread {
         System.out.println("");
         System.out.println("Ім'я потоку: " + daemonThread.getName());
         System.out.println("ID потоку: " + daemonThread.getId());
-        System.out.println("Пріоритет потоку:" + daemonThread.getPriority());
+        System.out.println("Пріоритет потоку: " + daemonThread.getPriority());
         System.out.println("Daemon-потік: " + daemonThread.isDaemon());
         System.out.println("Потік активний: " + daemonThread.isAlive());
         System.out.println("Стан потоку: " + daemonThread.getState());
@@ -60,6 +60,6 @@ public class DaemonThread {
         long hours = seconds / 3600;
         long minutes = (seconds % 3600) / 60;
         seconds = seconds % 60;
-        return String.format("%02d:%02d:%02d", hours, minutes, seconds);
+        return String.format("%02d:%02d:%02d", hours, minutes, (seconds + 1));
     }
 }
