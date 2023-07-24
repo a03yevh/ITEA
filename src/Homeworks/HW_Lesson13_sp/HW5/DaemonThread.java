@@ -3,40 +3,31 @@ package Homeworks.HW_Lesson13_sp.HW5;
 import java.util.concurrent.TimeUnit;
 
 /* Завдання 6: Створіть Daemon-потік і виведіть про нього якнайбільше інформації.*/
-
 public class DaemonThread {
-    public static void main(String[] args) {
-        Thread daemonThread = new Thread(() -> {
-            try {
-                while (true) {
-                    TimeUnit.SECONDS.sleep(10);
-                    System.out.println("Daemon-потік виконується...");
-                }
-            } catch (InterruptedException e) {
-                System.out.println("Daemon-потік був перерваний.");
-            }
-        });
 
-        daemonThread.setName("Мій Daemon-потік");
+    public static void main(String[] args) {
+        Thread daemonThread = new Thread(new MyDaemonRunnable());
         daemonThread.setDaemon(true);
         daemonThread.start();
 
-        // Информация о потоке:
-        System.out.println("Ім'я потоку: " + daemonThread.getName());
-        System.out.println("ID потоку: " + daemonThread.getId());
-        System.out.println("Приоритет потоку: " + daemonThread.getPriority());
-        System.out.println("Daemon-потік: " + daemonThread.isDaemon());
-        System.out.println("Потік живий: " + daemonThread.isAlive());
-        System.out.println("Потік активний: " + daemonThread.isAlive());
-        System.out.println("Потік в стані очікування: " + daemonThread.getState());
-        System.out.println("");
-
         try {
-            TimeUnit.SECONDS.sleep(5);
+            TimeUnit.SECONDS.sleep(3);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+    }
 
-        daemonThread.interrupt();
+    static class MyDaemonRunnable implements Runnable {
+
+        @Override
+        public void run() {
+            System.out.println("Ім'я потоку: " + Thread.currentThread().getName());
+            System.out.println("ID потоку: " + Thread.currentThread().getId());
+            System.out.println("Пріорітет потоку: " + Thread.currentThread().getPriority());
+            System.out.println("Daemon-потік: " + Thread.currentThread().isDaemon());
+            System.out.println("Потік живой: " + Thread.currentThread().isAlive());
+            System.out.println("Потік активнмй: " + Thread.currentThread().isAlive());
+            System.out.println("Стан потоку: " + Thread.currentThread().getState());
+        }
     }
 }
