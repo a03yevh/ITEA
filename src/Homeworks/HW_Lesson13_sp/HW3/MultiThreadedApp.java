@@ -7,6 +7,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
+import java.util.concurrent.TimeUnit;
 
 /* Завдання 4: Написати багатопоточне додаток наступного функціонала:
 
@@ -67,7 +68,7 @@ public class MultiThreadedApp {
             try {
                 Random random = new Random();
                 while (true) {
-                    Thread.sleep(2000);
+                    TimeUnit.SECONDS.sleep(2);
                     synchronized (lock) {
                         int id = random.nextInt(100);
                         idCollection.add(id);
@@ -85,7 +86,7 @@ public class MultiThreadedApp {
         public void run() {
             try {
                 while (true) {
-                    Thread.sleep(10000);
+                    TimeUnit.SECONDS.sleep(10);
                     synchronized (lock) {
                         for (int i = 0; i < idCollection.size(); i++) {
                             int id = idCollection.get(i);

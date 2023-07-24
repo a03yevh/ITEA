@@ -1,5 +1,7 @@
 package Homeworks.HW_Lesson13_sp.HW5;
 
+import java.util.concurrent.TimeUnit;
+
 /* Завдання 6: Створіть Daemon-потік і виведіть про нього якнайбільше інформації.*/
 
 public class DaemonThread {
@@ -7,7 +9,7 @@ public class DaemonThread {
         Thread daemonThread = new Thread(() -> {
             try {
                 while (true) {
-                    Thread.sleep(1000);
+                    TimeUnit.SECONDS.sleep(10);
                     System.out.println("Daemon-потік виконується...");
                 }
             } catch (InterruptedException e) {
@@ -30,7 +32,7 @@ public class DaemonThread {
         System.out.println("");
 
         try {
-            Thread.sleep(5000);
+            TimeUnit.SECONDS.sleep(5);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
