@@ -92,7 +92,7 @@ public class MultiThreadedApp {
                             int id = idCollection.get(i);
                             idCollection.remove(i);
                             i--;
-                            System.out.println("ID відправника: " + id);
+                            System.out.println("> ID відправника: " + id);
                         }
                     }
                 }

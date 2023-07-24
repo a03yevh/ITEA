@@ -10,7 +10,7 @@ class ResourceA {
     void methodA(ResourceB ResourceB) {
         lock.lock();
         try {
-            System.out.println("Виклик методу A");
+            System.out.println("Виклик методу (A)");
             TimeUnit.MILLISECONDS.sleep(500);
             ResourceB.methodB(this);
         } catch (InterruptedException e) {

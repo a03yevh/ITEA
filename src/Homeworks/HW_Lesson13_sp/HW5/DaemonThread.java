@@ -16,7 +16,7 @@ public class DaemonThread {
             try {
                 startTime = LocalDateTime.now();
                 while (!Thread.currentThread().isInterrupted()) {
-                    System.out.println("Потік працює...");
+                    System.out.println("Потік працює.....");
                     TimeUnit.SECONDS.sleep(2);
                 }
             } catch (InterruptedException e) {
@@ -28,7 +28,7 @@ public class DaemonThread {
         daemonThread.start();
 
         try {
-            TimeUnit.SECONDS.sleep(40);
+            TimeUnit.SECONDS.sleep(10);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

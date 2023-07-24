@@ -4,7 +4,7 @@ import java.util.concurrent.TimeUnit;
 
 class ResourceA {
     synchronized void methodA(ResourceB resourceB) {
-        System.out.println("Виклик методу A");
+        System.out.println("Виклик методу (A)");
         try {
             TimeUnit.MILLISECONDS.sleep(500);
         } catch (InterruptedException e) {

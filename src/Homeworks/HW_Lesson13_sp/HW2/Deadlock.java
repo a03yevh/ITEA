@@ -27,9 +27,9 @@ public class Deadlock {
         }
 
         if (threadA.getState() == Thread.State.BLOCKED || threadB.getState() == Thread.State.BLOCKED) {
-            System.out.println("Взаємне блокування відбулось!");
+            System.out.println("Взаємне блокування відбулось.");
         } else {
-            System.out.println("Взаємне блокування не відбулось!");
+            System.out.println("Взаємне блокування не відбулось.");
         }
 
         System.exit(0);
