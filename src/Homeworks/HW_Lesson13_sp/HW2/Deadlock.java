@@ -1,4 +1,4 @@
-package Homeworks.HW_Lesson13_sp.HW2_upd;
+package Homeworks.HW_Lesson13_sp.HW2;
 
 import java.util.concurrent.TimeUnit;
 

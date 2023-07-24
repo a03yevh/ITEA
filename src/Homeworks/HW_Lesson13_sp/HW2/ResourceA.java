@@ -1,18 +1,18 @@
-package Homeworks.HW_Lesson13_sp.HW2_upd;
+package Homeworks.HW_Lesson13_sp.HW2;
 
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
-class ResourceB {
+class ResourceA {
     private final Lock lock = new ReentrantLock();
 
-    void methodB(ResourceA ResourceA) {
+    void methodA(ResourceB ResourceB) {
         lock.lock();
         try {
-            System.out.println("Виклик методу (B)");
+            System.out.println("Виклик методу (A)");
             TimeUnit.MILLISECONDS.sleep(500);
-            ResourceA.methodA(this);
+            ResourceB.methodB(this);
         } catch (InterruptedException e) {
             e.printStackTrace();
         } finally {

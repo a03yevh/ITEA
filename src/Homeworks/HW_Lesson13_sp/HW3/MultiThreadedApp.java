@@ -1,4 +1,4 @@
-package Homeworks.HW_Lesson13_sp.HW3_upd;
+package Homeworks.HW_Lesson13_sp.HW3;
 
 import java.io.FileWriter;
 import java.io.IOException;

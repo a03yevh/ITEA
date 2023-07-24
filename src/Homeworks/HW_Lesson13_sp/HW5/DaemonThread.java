@@ -1,4 +1,4 @@
-package Homeworks.HW_Lesson13_sp.HW5_upd;
+package Homeworks.HW_Lesson13_sp.HW5;
 
 import java.time.Duration;
 import java.time.LocalDateTime;
