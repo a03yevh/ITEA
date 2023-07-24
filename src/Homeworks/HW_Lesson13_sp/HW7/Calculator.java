@@ -2,7 +2,7 @@ package Homeworks.HW_Lesson13_sp.HW7;
 
 import java.util.Scanner;
 
-/* Завдання 8: Напишіть основні арифметичні дії калькулятора, використовуючи лямбда-вирази.*/
+/* Завдання 8: Напишіть основні арифметичні дії калькулятора, використовуючи лямбда-вирази!.*/
 
 public class Calculator {
     public static void main(String[] args) {
