@@ -30,6 +30,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6cfcbc27-8d06-4c3b-9864-014ea0158f7e" name="Changes" comment="Updated">
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/SQL_HW_Lesson15/8/Project8/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/SQL_HW_Lesson15/8/Project8/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/SQL_HW_Lesson15/8/Project8/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/SQL_HW_Lesson15/8/Project8/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +56,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
   <component name="ProjectId" id="2NmlMARBc0HUjbGeBT2t4DAmfw7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -59,15 +67,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Homeworks/HW_Lesson13_sp/HW2" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/Java [Itea]/ITEA",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="Push.Settings">
     <force-push-targets>
       <force-push-target remote-path="origin" branch="main" />
@@ -180,6 +190,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680277090492</updated>
+      <workItem from="1691497422607" duration="116000" />
     </task>
     <task id="LOCAL-00003" summary="HW5 update">
       <created>1680339855678</created>
@@ -527,6 +538,9 @@
     <option name="localTasksCounter" value="52" />
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -549,7 +563,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -582,67 +595,5 @@
     <MESSAGE value="Added HW_Lesson13" />
     <MESSAGE value="Updated" />
     <option name="LAST_COMMIT_MESSAGE" value="Updated" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="440" y="90" key="#Project_Structure" timestamp="1689709832985">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="440" y="90" key="#Project_Structure/0.0.1920.1032@0.0.1920.1032" timestamp="1689709832985" />
-    <state x="726" y="382" key="#Updates" timestamp="1691149230433">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="726" y="382" key="#Updates/0.0.1920.1032@0.0.1920.1032" timestamp="1691149230433" />
-    <state x="703" y="318" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1689714274207">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="703" y="318" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1032@0.0.1920.1032" timestamp="1689714274207" />
-    <state x="765" y="200" key="#com.intellij.ide.util.MemberChooser" timestamp="1689762970495">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="765" y="200" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1032@0.0.1920.1032" timestamp="1689762970495" />
-    <state x="742" y="410" width="437" height="217" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1690201092713">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="742" y="410" width="437" height="217" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1032@0.0.1920.1032" timestamp="1690201092713" />
-    <state x="740" y="257" key="FileChooserDialogImpl" timestamp="1691149394180">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="740" y="257" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1691149394180" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1690208297828">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1690208297828" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1690208297828">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1690208297828" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1690208297828">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1690208297828" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1690208297828">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1690208297828" />
-    <state x="598" y="277" key="MultipleFileMergeDialog" timestamp="1689776974940">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="598" y="277" key="MultipleFileMergeDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1689776974940" />
-    <state x="461" y="161" key="SettingsEditor" timestamp="1689711208624">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="461" y="161" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1689711208624" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1691149377595">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.1920.1032@0.0.1920.1032" timestamp="1691149377595" />
-    <state x="552" y="236" key="Vcs.Push.Dialog.v2" timestamp="1690721179296">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="552" y="236" key="Vcs.Push.Dialog.v2/0.0.1920.1032@0.0.1920.1032" timestamp="1690721179296" />
-    <state x="92" y="92" width="1736" height="848" key="dock-window-1" timestamp="1690192409770">
-      <screen x="0" y="0" width="1920" height="1032" />
-    </state>
-    <state x="92" y="92" width="1736" height="848" key="dock-window-1/0.0.1920.1032@0.0.1920.1032" timestamp="1690192409770" />
   </component>
 </project>
