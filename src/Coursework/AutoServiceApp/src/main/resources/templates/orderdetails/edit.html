@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Редагування деталей замовлення</title>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" type="text/css" th:href="@{/webjars/bootstrap/3.3.7/css/bootstrap.min.css}" />
+    </head>
+<body>
+<div class="container">
+    <div th:replace="fragments/header :: header">...</div>
+    <br>
+    <br>
+    <br>
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <h1>Редагування деталей замовлення</h1>
+            <br>
+            <br>
+            <form th:action="@{/orderdetails/edit}" method="post">
+                <input type="number" name="id" th:value="${orderdetails.getId()}" hidden>
+
+                <div class="form-group">
+                    <label for="information">Інформація</label>: <input th:value = "${orderdetails.getInformation()}" type="text" id="information" name="information" class="form-control" autofocus="autofocus" placeholder="Інформація" required/>
+                </div>
+
+                <div class="form-group">
+                    <label for="status">Статус</label>:
+                    <select id="status" name="status" class="form-control" placeholder=".input-medium" height>
+                        <option th:value="${orderdetails.getStatus()}" th:text="${orderdetails.getStatus()}" selected></option>
+                        <option value="Очікування">Очікування</option>
+                        <option value="Закрито">Закрито</option>
+                        <option value="В роботі">В роботі</option>
+                        <option value="Виконано">Виконано</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" class="btn btn-success">Зберегти</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" th:src="@{/webjars/jquery/3.2.1/jquery.min.js/}"></script>
+<script type="text/javascript" th:src="@{/webjars/bootstrap/3.3.7/js/bootstrap.min.js}"></script>
+</body>
+</html>

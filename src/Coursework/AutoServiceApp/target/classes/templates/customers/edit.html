@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Редагування замовника</title>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" type="text/css" th:href="@{/webjars/bootstrap/3.3.7/css/bootstrap.min.css}" />
+    </head>
+<body>
+<div class="container">
+    <div th:replace="fragments/header :: header">...</div>
+    <br>
+    <br>
+    <br>
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <h1>Редагування замовника</h1>
+            <br>
+            <br>
+            <form th:action="@{/customers/edit}" method="post">
+                <input type="number" name="id" th:value="${customer.getId()}" hidden>
+
+                <div class="form-group">
+                    <label for="fullName">ФІО</label>: <input th:value = "${customer.getFullName()}" type="text" id="fullName" name="fullName" class="form-control" autofocus="autofocus" placeholder="ФІО" required/>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Телефон</label>: <input th:value = "${customer.getPhone()}" type="text" id="phone" name="phone" class="form-control" autofocus="autofocus" placeholder="Телефон" required/>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" class="btn btn-success">Зберегти</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" th:src="@{/webjars/jquery/3.2.1/jquery.min.js/}"></script>
+<script type="text/javascript" th:src="@{/webjars/bootstrap/3.3.7/js/bootstrap.min.js}"></script>
+</body>
+</html>

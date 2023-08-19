@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<head>
+    <title>Замовлення</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" th:href="@{/webjars/bootstrap/3.3.7/css/bootstrap.min.css}" />
+</head>
+<body>
+
+<div th:replace="fragments/header :: header">...</div>
+<br>
+<br>
+<br>
+<div class="container mt-3 mb-4">
+    <p>
+        <a class="btn-outline-primary" th:href="@{/orders/add}">ДОДАТИ ЗАМОВЛЕННЯ</a>
+    </p>
+    <table class="table">
+        <thead>
+        <tr>
+            <th>
+                ID
+            </th>
+            <th>
+                Замовник
+            </th>
+            <th>
+                Статус
+            </th>
+            <th>
+                Операції
+            </th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="order : ${orders}">
+            <td>
+                <h4 class="mb-0"><a th:href="@{/orders/details?id={id}(id=${order.getId()})}" th:text="${order.getId()}"></a></h4>
+            </td>
+            <td>
+                <h4 class="mb-0"><a th:href="@{/customers/details?id={id}(id=${order.getCustomer().getId()})}" href="#" th:text="${order.getCustomer().getFullName()}"></a></h4>
+            </td>
+            <td>
+                <h4 class="mb-0"><a href="#" th:text="${order.getOrderDetails()[0].getStatus()}"></a></h4>
+            </td>
+            <td>
+                <li><a th:href="@{/orders/details?id={id}(id=${order.getId()})}">Інформація</a></li>
+                <li><a th:href="@{/orders/edit?id={id}(id=${order.getId()})}">Редагувати</a></li>
+                <li><a th:href="@{/orders/delete?id={id}(id=${order.getId()})}">Видалити</a></li>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<script type="text/javascript" th:src="@{/webjars/jquery/3.2.1/jquery.min.js/}"></script>
+<script type="text/javascript" th:src="@{/webjars/bootstrap/3.3.7/js/bootstrap.min.js}"></script>
+</body>
+</html>
